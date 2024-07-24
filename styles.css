@@ -29,3 +29,32 @@
 #navbar, #top-links, #hero, #about, #tutorials, #experience, #testimonials, .testimonials-first, .testimonials-second, #bookings, footer {
     display: flex;
 }
+
+/** Sizes and default lengths **/
+
+html {
+    font-size: 16px;
+}
+
+#navbar {
+    height: 45px;
+    position: fixed;
+    width: 100%;
+}
+
+#hero {
+    height: calc(80vh - 45px);
+    margin-top: 45px;
+}
+
+#about {
+    height: 20vh;
+}
+
+#tutorials, #experience, #testimonials, #bookings {
+    height: 500px;
+}
+
+footer {
+    height: 100px;
+}
