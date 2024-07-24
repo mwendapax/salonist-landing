@@ -58,3 +58,30 @@ html {
 footer {
     height: 100px;
 }
+
+/** Color styles **/
+
+:root {
+    --black : #000000;
+    --yellow : #EFD600;
+    --lighter-yellow : #E0C263;
+}
+
+
+body {
+    background-color: var(--black);
+    color:white;
+}
+
+#navbar {
+    background-color: transparent;
+}
+
+.hero-header {
+    color: var(--lighter-yellow)
+}
+
+.button {
+    background-color: var(--yellow);
+    color: var(--black);
+}
