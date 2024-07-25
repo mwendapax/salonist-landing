@@ -23,10 +23,13 @@
     font-family: quicksandregular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-display: swap;
     box-sizing: border-box;
+    letter-spacing: .9px;
+    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: rubikbold, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
 }
 
 a {
@@ -126,6 +129,11 @@ body {
 .hero-image {
     flex-direction: column;
     flex: 1;
+}
+
+.hero-img-caption {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero-img {
@@ -257,4 +265,20 @@ div  img {
     height: 100%;
     max-height: 100%;
     width: 100%;
+}
+
+/** text styles **/
+
+.hero-para {
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 900;
+}
+
+.hero-header {
+    font-size: 4rem;
+}
+
+.highlighted {
+    color: var(--yellow);
 }
